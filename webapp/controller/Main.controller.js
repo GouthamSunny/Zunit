@@ -1,6 +1,7 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
-], (Controller) => {
+    "sap/ui/core/mvc/Controller",
+    "sap/m/MessageToast"
+], (Controller,MessageToast) => {
     "use strict";
 
     return Controller.extend("com.sap.btp.zunit.controller.Main", {
@@ -8,7 +9,7 @@ sap.ui.define([
         },
         onButtonPress: function(){
 
-            sap.m.MessageToast.show("Hello World");
+            MessageToast.show("Hello World");
         }
     });
 });
