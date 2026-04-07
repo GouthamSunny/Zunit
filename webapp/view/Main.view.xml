@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="com.sap.btp.zunit.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <VBox>
+            <Label text="First Name" />
+            <Input vaue="" />
+            <Label text="Last Name" />
+            <Input vaue="" />
+            <Button text="Press me" press="onButtonPress" />
+        </VBox>
+    </Page>
+</mvc:View>
